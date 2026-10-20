@@ -1,0 +1,15 @@
+# This repository contains only the plugin catalog and plugin packages.
+/*
+!/.gitignore
+!/README.md
+!/.agents/
+!/plugins/
+
+/.agents/*
+!/.agents/plugins/
+
+/plugins/uptime-personal.marketplace.json
+**/node_modules/
+**/.env
+**/.env.*
+**/.git/

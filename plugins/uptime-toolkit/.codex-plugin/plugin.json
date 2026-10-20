@@ -1,0 +1,17 @@
+{
+  "name": "uptime-toolkit",
+  "version": "0.1.0",
+  "description": "Скиллы проекта для Go, производительности React/Next.js и проверки интерфейса через Playwright MCP.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Uptime Toolkit",
+    "shortDescription": "Go, React/Next.js и проверка интерфейса",
+    "longDescription": "Подготовленные скиллы проекта: golang-code-style, vercel-react-best-practices и playwright-ui-check. Включает справочные материалы, правила и примеры.",
+    "category": "Developer Tools",
+    "defaultPrompt": [
+      "Проверь Go-код проекта с помощью golang-code-style из uptime-toolkit.",
+      "Проверь производительность React-компонентов с помощью vercel-react-best-practices из uptime-toolkit.",
+      "Проверь измененный интерфейс с помощью playwright-ui-check из uptime-toolkit."
+    ]
+  }
+}

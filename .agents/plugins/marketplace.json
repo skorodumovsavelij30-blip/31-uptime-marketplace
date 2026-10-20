@@ -1,0 +1,20 @@
+{
+  "name": "uptime-marketplace",
+  "interface": {
+    "displayName": "Uptime marketplace"
+  },
+  "plugins": [
+    {
+      "name": "uptime-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/uptime-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
